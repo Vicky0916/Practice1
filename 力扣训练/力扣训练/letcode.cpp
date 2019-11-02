@@ -62,57 +62,58 @@ using namespace std;
 //	a.test();
 //}
 //罗马数字转换为数字
-class Solution {
-public:
-	int romanToInt(string s)
-	{
-		int sum = 0;
-		int len = s.length();
-		for (int i = len - 1; i >= 0; i--)
-		{
-			switch (s[i])
-			{
-			case 'I':
-				if (i < len - 1 && (s[i + 1]) == 'V' || s[i + 1] == 'X')
-				{
-					sum -= 1;
-				}
-				else
-				{
-					sum += 1;
-				}
-				break;
-			case 'V':
-				if (i < len - 1 && (s[i + 1]) == 'L' || s[i + 1] == 'C')
-				{
-					sum -= 10;
-				}
-				else
-				{
-					sum += 10;
-				}
+//class Solution {
+//public:
+//	int romanToInt(string s)
+//	{
+//		int sum = 0;
+//		int len = s.length();
+//		for (int i = len - 1; i >= 0; i--)
+//		{
+//			switch (s[i])
+//			{
+//			case 'I':
+//				if (i < len - 1 && (s[i + 1]) == 'V' || s[i + 1] == 'X')
+//				{
+//					sum -= 1;
+//				}
+//				else
+//				{
+//					sum += 1;
+//				}
+//				break;
+//			case 'V':
+//				if (i < len - 1 && (s[i + 1]) == 'L' || s[i + 1] == 'C')
+//				{
+//					sum -= 10;
+//				}
+//				else
+//				{
+//					sum += 10;
+//				}
+//
+//			case 'C':
+//				if (i < len - 1 && (s[i + 1]) == 'D' || s[i + 1] == 'M')
+//				{
+//					sum -= 100;
+//				}
+//				else
+//				{
+//					sum += 100;
+//				}
+//				break;
+//			case 'L':
+//				sum += 50;
+//				break;
+//			case 'D':
+//				sum += 500;
+//			case 'M':
+//				sum += 1000;
+//			default:
+//				break;
+//			}
+//		}
+//		return sum;
+//	}
+//};
 
-			case 'C':
-				if (i < len - 1 && (s[i + 1]) == 'D' || s[i + 1] == 'M')
-				{
-					sum -= 100;
-				}
-				else
-				{
-					sum += 100;
-				}
-				break;
-			case 'L':
-				sum += 50;
-				break;
-			case 'D':
-				sum += 500;
-			case 'M':
-				sum += 1000;
-			default:
-				break;
-			}
-		}
-		return sum;
-	}
-};
