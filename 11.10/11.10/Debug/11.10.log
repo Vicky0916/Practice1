@@ -1,0 +1,4 @@
+﻿  test2.cpp
+d:\c练习\11.10\11.10\test2.cpp(22): warning C4018: “<”: 有符号/无符号不匹配
+d:\c练习\11.10\11.10\test2.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
+  11.10.vcxproj -> D:\C练习\11.10\Debug\11.10.exe
