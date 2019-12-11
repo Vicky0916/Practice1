@@ -1,1 +1,5 @@
-﻿  密码解密.vcxproj -> D:\Export\Practice1\密码解密\Debug\密码解密.exe
+﻿  Password.cpp
+d:\export\practice1\密码解密\密码解密\password.cpp(70): warning C4018: “<”: 有符号/无符号不匹配
+d:\export\practice1\密码解密\密码解密\password.cpp(72): warning C4018: “<”: 有符号/无符号不匹配
+d:\export\practice1\密码解密\密码解密\password.cpp(88): warning C4018: “<”: 有符号/无符号不匹配
+  密码解密.vcxproj -> D:\Export\Practice1\密码解密\Debug\密码解密.exe
