@@ -5,7 +5,8 @@ using namespace std;
 int Howmany(int n)
 {
 	int k = 0;
-	for (int i = 2; i < sqrt(n); i++)
+	int num = n;
+	for (int i = 2; i <= sqrt(num); i++)
 	{
 		if (n%i == 0)
 		{
@@ -13,7 +14,7 @@ int Howmany(int n)
 			{
 				n = n / i;
 			}
-			++k;  
+			k++;
 		}
 	 }
 	/*if (n != 1)
@@ -34,3 +35,4 @@ int main()
 	system("pause");
 	return 0;
 }
+
