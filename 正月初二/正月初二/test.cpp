@@ -1,8 +1,24 @@
 #include <iostream>
 #include <stdlib.h>
 using namespace std;
+int func(int a)
+{
+	int b;
+	switch (a)
+	{
+	case 1:b = 30;
+	case 2:b = 20;
+	case 3:b = 16;
+	default: b = 0;
+	}
+	return b;
+}
 int main()
 {
+	int a=func(1);
+	cout << a;
+	system("pause");
+	return 0;
 ////	int sum=7;
 ////	int num = sum;
 ////	sum = num++;
@@ -20,7 +36,7 @@ int main()
 ////	return str;*/
 ////}
 ////};
-	int i = 0, a = 0;
+	/*int i = 0, a = 0;
 	while (i < 20)
 	{
 		for (;;)
@@ -32,7 +48,7 @@ int main()
 	}
 	cout << a << endl;
 	system("pause");
-	return 0;
+	return 0;*/
 }
 ////
 ////class solution
