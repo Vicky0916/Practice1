@@ -15,8 +15,19 @@ int func(int a)
 }
 int main()
 {
-	int a=func(1);
-	cout << a;
+	/*int a=func(1);
+	cout << a;*/
+	/*int n = 2;
+	int c = n += n -= n * n;
+	cout << c;*/
+	/*char *p = "abcdefgh",  *r;
+	long *q;
+	q = (long*)p;
+	q++;
+	r = (char*)q;
+	cout << r;*/
+	char str[] = "ABCD", *p = str;
+	cout << *(p + 4)<<endl;
 	system("pause");
 	return 0;
 ////	int sum=7;
