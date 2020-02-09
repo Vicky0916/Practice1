@@ -1,6 +1,10 @@
-#include <iostream>
+//#include <iostream>
+
+//#include <cstring>
+//using namespace std;
+#include <stdio.h>
 #include <stdlib.h>
-using namespace std;
+#include <string.h>
 int func(int a)
 {
 	int b;
@@ -26,8 +30,24 @@ int main()
 	q++;
 	r = (char*)q;
 	cout << r;*/
-	char str[] = "ABCD", *p = str;
-	cout << *(p + 4)<<endl;
+	/*char str[] = "ABCD", *p = str;
+	cout << *(p + 4)<<endl;*/
+	/*int a, b;
+	cin >> a >> b;
+	if (a > b)
+	{
+		a = b;
+		b = a;
+	}
+	else
+	{
+		a++;
+		b++;
+	}
+	cout << a << " "<< b << endl;*/
+	char s[] = "abcdefgh", *p = s;
+	p += 3;
+	printf("%d",strlen(strcpy(p,"ABCD")));
 	system("pause");
 	return 0;
 ////	int sum=7;
