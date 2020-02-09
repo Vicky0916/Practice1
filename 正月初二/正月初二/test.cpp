@@ -47,7 +47,7 @@ int main()
 	cout << a << " "<< b << endl;*/
 	char s[] = "abcdefgh", *p = s;
 	p += 3;
-	printf("%d",strlen(strcpy(p,"ABCD")));
+	printf("%d",strlen(strcpy_s(p,"ABCD")));
 	system("pause");
 	return 0;
 ////	int sum=7;
