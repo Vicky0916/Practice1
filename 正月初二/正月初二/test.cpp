@@ -1,7 +1,7 @@
-//#include <iostream>
+#include <iostream>
 
-//#include <cstring>
-//using namespace std;
+#include <cstring>
+using namespace std;
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -45,9 +45,25 @@ int main()
 		b++;
 	}
 	cout << a << " "<< b << endl;*/
-	char s[] = "abcdefgh", *p = s;
+
+	/*char s[] = "abcdefgh", *p = s;
 	p += 3;
-	printf("%d",strlen(strcpy_s(p,"ABCD")));
+	printf("%d",strlen(strcpy_s(p,"ABCD")));*/
+
+	/*int a[] = { 2,4,6,8 };
+	int* p = a;
+	for (int i = 0; i < 4; i++)
+	{
+		a[i] = *p++;
+	}*/
+	int a = 1; int b = 2;
+	for (; a < 8; a++)
+	{
+		b += a;
+		a += 2;
+	}
+	cout << a << " " << b << endl;
+//	cout << a[2] << endl;
 	system("pause");
 	return 0;
 ////	int sum=7;
