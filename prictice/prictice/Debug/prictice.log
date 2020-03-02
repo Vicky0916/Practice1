@@ -1,0 +1,5 @@
+﻿  delete.cpp
+d:\export\practice1\prictice\prictice\delete.cpp(10): warning C4018: “<”: 有符号/无符号不匹配
+d:\export\practice1\prictice\prictice\delete.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
+d:\export\practice1\prictice\prictice\delete.cpp(32): warning C4018: “<”: 有符号/无符号不匹配
+  prictice.vcxproj -> D:\Export\Practice1\prictice\Debug\prictice.exe
