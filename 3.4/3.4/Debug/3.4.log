@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\export\practice1\3.4\3.4\main.cpp(97): warning C4018: “<”: 有符号/无符号不匹配
+d:\export\practice1\3.4\3.4\main.cpp(109): warning C4018: “<”: 有符号/无符号不匹配
+  3.4.vcxproj -> D:\Export\Practice1\3.4\Debug\3.4.exe
