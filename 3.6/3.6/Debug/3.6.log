@@ -1,0 +1,3 @@
+﻿  test.cpp
+d:\export\practice1\3.6\3.6\test.cpp(12): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  3.6.vcxproj -> D:\Export\Practice1\3.6\Debug\3.6.exe
