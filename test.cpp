@@ -7,7 +7,6 @@
 //using namespace std;
 //int MoreThanHalfNum_Solution(vector<int> numbers)
 //{
-//	vector<map<int, int>>  v;
 //	map<int, int> m;
 //	for (auto e : numbers)
 //	{

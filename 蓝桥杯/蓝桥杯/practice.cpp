@@ -179,7 +179,7 @@ void f(string s)
 }
 int main()
 {
-	while (1)
+	while (1 
 	{
 		string s;
 		cin >> s;
