@@ -1,0 +1,4 @@
+﻿  test.cpp
+d:\export\my-newfile-for-review\5.20\5.20\test.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+d:\export\my-newfile-for-review\5.20\5.20\test.cpp(20): warning C4018: “<”: 有符号/无符号不匹配
+  5.20.vcxproj -> D:\Export\my-newfile-for-review\5.20\Debug\5.20.exe
